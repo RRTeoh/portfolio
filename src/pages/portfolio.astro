@@ -1,0 +1,65 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CategoryCard from '../components/CategoryCard.astro';
+import { categories } from '../data/categories';
+---
+
+<Layout>
+	<main>
+		<section class="hero">
+			<h1>My <span class="text-gradient">Portfolio</span></h1>
+			<p class="subtitle">Explore Work by Category</p>
+		</section>
+		
+		<section class="categories-grid">
+			{categories.map((category) => (
+				<CategoryCard category={category} />
+			))}
+		</section>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 1200px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	
+	.hero {
+		text-align: center;
+		padding: 4rem 0;
+	}
+
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 0.5em;
+	}
+
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+
+	.subtitle {
+		font-size: 1.5rem;
+		color: #a1a1aa;
+	}
+
+	.categories-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+		gap: 2rem;
+		padding: 2rem 0;
+	}
+</style>
