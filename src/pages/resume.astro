@@ -1,0 +1,263 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const hardSkills = [
+  "Unity",
+  "Unreal Engine",
+  "Maya",
+  "Adobe After Effect",
+  "Adobe Animate",
+  "Adobe Premium Pro",
+  "C and C++ Programming"
+];
+
+const softSkills = [
+  "Communication skills",
+  "Problem Solving skills",
+  "Teamwork",
+  "Innovative",
+  "Creative",
+  "Time Management"
+];
+
+const languages = ["English", "Chinese", "Malay"];
+---
+
+<Layout>
+  <main>
+    <div class="resume-container">
+      <!-- Header Section -->
+      <section class="header">
+        <h1>Teoh Rui Rong</h1>
+        <div class="contact-info">
+          <p>📍 Bayan Lepas, Penang</p>
+          <p>📞 +60 12 332 1907</p>
+          <p>✉️ <a href="mailto:rrteoh1103@gmail.com">rrteoh1103@gmail.com</a></p>
+          <p>🔗 <a href="https://www.linkedin.com/in/teoh-rui-rong-48b389361/" target="_blank">LinkedIn</a></p>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <section class="section">
+        <h2>About Me</h2>
+        <p>
+          A motivated Digital Media Technology student at Xiamen University Malaysia seeking an internship opportunity to apply academic knowledge and gain hands-on experience in game development using tools such as Unreal Engine and Unity, while supporting operational efficiency and innovation through practical development work.
+        </p>
+      </section>
+
+      <!-- Education -->
+      <section class="section">
+        <h2>Education</h2>
+        <div class="item">
+          <div class="item-header">
+            <h3>Xiamen University Malaysia</h3>
+            <span class="date">Sep 2022 - Present</span>
+          </div>
+          <p class="subtitle">Bachelor of Engineering in Digital Media Technology with Honours</p>
+          <ul>
+            <li>CGPA: 3.70/4.00 (ranked 8 out of 59)</li>
+            <li>Dean List Awardee</li>
+          </ul>
+        </div>
+        <div class="item">
+          <div class="item-header">
+            <h3>Foundation in Science (Physical Science)</h3>
+            <span class="date">Aug 2021 - July 2022</span>
+          </div>
+          <ul>
+            <li>CGPA: 3.26/4.00</li>
+            <li>Awarded XMUM 25% Merit Scholarship</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Skills & Language -->
+      <section class="section grid-2">
+        <div>
+          <h2>Skills</h2>
+          <div class="skills-group">
+            <h3>Hard Skills</h3>
+            <ul class="skills-list">
+              {hardSkills.map(skill => <li>{skill}</li>)}
+            </ul>
+          </div>
+          <div class="skills-group">
+            <h3>Soft Skills</h3>
+            <ul class="skills-list">
+              {softSkills.map(skill => <li>{skill}</li>)}
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h2>Language</h2>
+          <ul class="skills-list">
+            {languages.map(lang => <li>{lang}</li>)}
+          </ul>
+        </div>
+      </section>
+
+      <!-- Extra-Curricular -->
+      <section class="section">
+        <h2>Extra-Curricular</h2>
+        <div class="item">
+          <div class="item-header">
+            <h3>DMT Student Showcase 2025 - Secretary Leader</h3>
+            <span class="date">Apr 2025 - Oct 2025</span>
+          </div>
+          <ul>
+            <li>Led the secretary team in managing all documentation, including proposals, reports, application letters, and meeting minutes.</li>
+            <li>Responsible for record management such as attendance tracking, progress documentation, and internal announcements.</li>
+            <li>Coordinated with committee members to ensure accurate information flow and timely documentation.</li>
+          </ul>
+        </div>
+      </section>
+
+       <!-- Awards -->
+       <section class="section">
+        <h2>Award</h2>
+        <ul>
+            <li>Dean List Award in 2024/09</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 2rem;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-top: 4rem; /* Add space for fixed header */
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgba(var(--accent), 0.5);
+    padding-bottom: 0.5rem;
+    color: rgb(var(--accent-light));
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: white;
+  }
+
+  .section {
+    margin-bottom: 3rem;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    color: #a1a1aa;
+  }
+
+  .contact-info a {
+    color: rgb(var(--accent-light));
+    text-decoration: none;
+  }
+
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
+  .item {
+    margin-bottom: 1.5rem;
+  }
+
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .date {
+    color: #a1a1aa;
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+
+  .subtitle {
+    font-style: italic;
+    color: #ccc;
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #ccc;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .skills-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .skills-list li {
+    background: rgba(var(--accent), 0.2);
+    border: 1px solid rgba(var(--accent), 0.3);
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    color: white;
+  }
+
+  @media (max-width: 600px) {
+    .grid-2 {
+      grid-template-columns: 1fr;
+    }
+    
+    .item-header {
+      flex-direction: column;
+    }
+  }
+</style>
