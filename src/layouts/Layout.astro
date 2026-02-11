@@ -1,5 +1,6 @@
 ---
 import Header from '../components/Header.astro';
+import background from '../assets/BG.jpg';
 ---
 <!doctype html>
 <html lang="en">
@@ -17,7 +18,7 @@ import Header from '../components/Header.astro';
 	</body>
 </html>
 
-<style>
+<style define:vars={{ backgroundUrl: `url(${background.src})` }}>
 	:root {
 		--accent: 136, 58, 234;
 		--accent-light: 224, 204, 250;
@@ -31,7 +32,12 @@ import Header from '../components/Header.astro';
 	}
 	html {
 		font-family: system-ui, sans-serif;
-		background: #13151a;
+		background-image: var(--backgroundUrl);
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		min-height: 100vh;
 	}
 	code {
 		font-family:
