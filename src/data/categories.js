@@ -61,5 +61,19 @@ export const categories = [
         title: '2D Animation',
         description: 'Classical and digital 2D animation projects.',
         image: 'https://images.unsplash.com/photo-1635241161466-541f065683ba?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        id: 'software-development',
+        slug: 'software-development',
+        title: 'Software Development',
+        description: 'Building robust and scalable software solutions.',
+        image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        id: 'graphic-design',
+        slug: 'graphic-design',
+        title: 'Graphic Design',
+        description: 'Visual communication through typography, photography, and illustration.',
+        image: 'https://images.unsplash.com/photo-1626785774573-4b799312299d?auto=format&fit=crop&q=80&w=800'
     }
 ];
