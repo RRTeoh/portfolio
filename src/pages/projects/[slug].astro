@@ -22,10 +22,19 @@ const { project } = Astro.props;
       
       <article class="project-details">
         <div class="video-wrapper">
-          <video controls autoplay muted loop playsinline>
-            <source src={project.videoUrl} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          {project.videoUrl ? (
+            <iframe 
+              width="100%" 
+              height="562" 
+              src={`https://www.youtube.com/embed/${project.videoUrl.split('/').pop()}`} 
+              title={project.title} 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen
+            ></iframe>
+          ) : (
+            <div class="no-video">Video coming soon</div>
+          )}
         </div>
         
         <div class="content">
@@ -39,11 +48,13 @@ const { project } = Astro.props;
         <div class="gallery">
           <h2>Project Gallery</h2>
           <div class="gallery-grid">
-            {project.images.map((image, index) => (
+            {project.images && project.images.length > 0 ? project.images.map((image, index) => (
               <div class="image-item">
                 <img src={image} alt={`${project.title} - Image ${index + 1}`} loading="lazy" />
               </div>
-            ))}
+            )) : (
+              <p class="no-images">Coming soon...</p>
+            )}
           </div>
         </div>
       </article>
@@ -81,15 +92,27 @@ const { project } = Astro.props;
 
   .video-wrapper {
     width: 100%;
+    aspect-ratio: 16 / 9;
     border-radius: 1rem;
     overflow: hidden;
     margin-bottom: 2rem;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     border: 1px solid #333;
+    background: #000;
   }
 
-  video {
+  .no-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #a1a1aa;
+    font-size: 1.2rem;
+  }
+
+  iframe {
     width: 100%;
+    height: 100%;
     display: block;
   }
 
@@ -150,6 +173,8 @@ const { project } = Astro.props;
     overflow: hidden;
     transition: transform 0.3s ease;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    background: #1a1a1a;
+    aspect-ratio: 16 / 9;
   }
 
   .image-item:hover {
@@ -161,5 +186,10 @@ const { project } = Astro.props;
     height: 100%;
     object-fit: cover;
     display: block;
+  }
+
+  .no-images {
+    color: #a1a1aa;
+    font-style: italic;
   }
 </style>
