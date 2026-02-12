@@ -616,9 +616,9 @@ export const projects = [
     fullDescription: "I created a newsletter design inspired by Lilo & Stitch using Adobe InDesign.",
     videoUrl: null,
     images: [
-      "/assets/Lilo & Stitch/Screenshot 2026-02-12 191633.png",
-      "/assets/Lilo & Stitch/Screenshot 2026-02-12 191744.png",
-      "/assets/Lilo & Stitch/Screenshot 2026-02-12 191812.png"
+      "/assets/Lilo & Stitch/Assgm_2_page-0001.jpg",
+      "/assets/Lilo & Stitch/Assgm_2_page-0002.jpg",
+      "/assets/Lilo & Stitch/Assgm_2_page-0003.jpg"
     ],
   },
   {
