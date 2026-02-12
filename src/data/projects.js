@@ -68,15 +68,15 @@ export const projects = [
     fullDescription: "This is a 3D PC-based multiplayer PvP FPS game in a backrooms-themed environment using Unity and Photon. I implemented core gameplay mechanics, including shooting, ammo refilling, point collection and health recovery.",
     videoUrl: "https://youtu.be/ONDL92dZvpk",
     images: [
-      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 191319.png",
-      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 191500.png",
-      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 191720.png",
-      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 191834.png",
-      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 191942.png",
-      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 192026.png",
-      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 192131.png",
-      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 192305.png",
-      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 192338.png"
+      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 185538.png",
+      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 185632.png",
+      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 185707.png",
+      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 185751.png",
+      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 185828.png",
+      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 185940.png",
+      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 190024.png",
+      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 190109.png",
+      "/assets/Backrooms Hunt for Escape/Screenshot 2026-02-02 190438.png"
     ],
   },
   {
@@ -89,13 +89,13 @@ export const projects = [
     fullDescription: "This game trailer shows a 3D PC-based multiplayer PvE adventure game set in a historical-themed environment. I implemented core gameplay systems, including shooting, special skills, spot hiding, item collection and interaction and enemy chasing using Unity’s AI navigation (NavMesh).",
     videoUrl: "https://youtu.be/EsIabz_O_Vo",
     images: [
-      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 192751.png",
-      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 192842.png",
-      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 192931.png",
-      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 193027.png",
-      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 193132.png",
-      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 193309.png",
-      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 193427.png"
+      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 190722.png",
+      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 190751.png",
+      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 190912.png",
+      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 190949.png",
+      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 191018.png",
+      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 191128.png",
+      "/assets/Lost Era Crystal Hunt/Screenshot 2026-02-02 191157.png"
     ],
   },
   {
@@ -108,16 +108,16 @@ export const projects = [
     fullDescription: "I developed a 3D endless runner game set in a Halloween-themed environment. I implemented core gameplay mechanics, including running and jumping movement, lane-swiping controls, obstacle avoidance, coin collection, point-tracking system and endless track spawning system.",
     videoUrl: null,
     images: [
-      "/assets/Hollow Nightmare/Screenshot 2026-02-02 195747.png",
-      "/assets/Hollow Nightmare/Screenshot 2026-02-02 195843.png",
-      "/assets/Hollow Nightmare/Screenshot 2026-02-02 195930.png",
-      "/assets/Hollow Nightmare/Screenshot 2026-02-02 200030.png",
-      "/assets/Hollow Nightmare/Screenshot 2026-02-02 200424.png",
-      "/assets/Hollow Nightmare/Screenshot 2026-02-02 200542.png",
-      "/assets/Hollow Nightmare/Screenshot 2026-02-02 200637.png",
-      "/assets/Hollow Nightmare/Screenshot 2026-02-02 200742.png",
-      "/assets/Hollow Nightmare/Screenshot 2026-02-02 200835.png",
-      "/assets/Hollow Nightmare/Screenshot 2026-02-02 200938.png"
+      "/assets/Hollow Nightmare/Screenshot 2026-02-02 191927.png",
+      "/assets/Hollow Nightmare/Screenshot 2026-02-02 191952.png",
+      "/assets/Hollow Nightmare/Screenshot 2026-02-02 192025.png",
+      "/assets/Hollow Nightmare/Screenshot 2026-02-02 192141.png",
+      "/assets/Hollow Nightmare/Screenshot 2026-02-02 192218.png",
+      "/assets/Hollow Nightmare/Screenshot 2026-02-02 192250.png",
+      "/assets/Hollow Nightmare/Screenshot 2026-02-02 192332.png",
+      "/assets/Hollow Nightmare/Screenshot 2026-02-02 192501.png",
+      "/assets/Hollow Nightmare/Screenshot 2026-02-02 192556.png",
+      "/assets/Hollow Nightmare/Screenshot 2026-02-02 192630.png"
     ],
   },
   {
@@ -130,13 +130,13 @@ export const projects = [
     fullDescription: "This is a 3D PC-based open-world third-person adventure game with five levels developed using Unity. I implemented core puzzle gameplay systems, including interaction, item collection, puzzle-trigger mechanics and multiple puzzle managers for different puzzle types (sequence-based, maze-based, and jigsaw puzzles).",
     videoUrl: null,
     images: [
-      "/assets/Merlin’s Curse/Screenshot 2026-02-02 201323.png",
-      "/assets/Merlin’s Curse/Screenshot 2026-02-02 201444.png",
-      "/assets/Merlin’s Curse/Screenshot 2026-02-02 201538.png",
-      "/assets/Merlin’s Curse/Screenshot 2026-02-02 201826.png",
-      "/assets/Merlin’s Curse/Screenshot 2026-02-02 202029.png",
-      "/assets/Merlin’s Curse/Screenshot 2026-02-02 202157.png",
-      "/assets/Merlin’s Curse/Screenshot 2026-02-02 202447.png"
+      "/assets/Merlin’s Curse/Screenshot 2026-02-02 193048.png",
+      "/assets/Merlin’s Curse/Screenshot 2026-02-02 193310.png",
+      "/assets/Merlin’s Curse/Screenshot 2026-02-02 193343.png",
+      "/assets/Merlin’s Curse/Screenshot 2026-02-02 193435.png",
+      "/assets/Merlin’s Curse/Screenshot 2026-02-02 193524.png",
+      "/assets/Merlin’s Curse/Screenshot 2026-02-02 193615.png",
+      "/assets/Merlin’s Curse/Screenshot 2026-02-02 193810.png"
     ],
   },
   {
@@ -149,14 +149,14 @@ export const projects = [
     fullDescription: "I developed a 3D narrative-driven ball game with an eyeball protagonist across two levels using Unity for the first time. I implemented core gameplay systems, including ball movement, item collection and OnTriggerEnter-based interactions.",
     videoUrl: null,
     images: [
-      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 204313.png",
-      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 204555.png",
-      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 204646.png",
-      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 204843.png",
-      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 204945.png",
-      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 205021.png",
-      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 205101.png",
-      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 205141.png"
+      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 194424.png",
+      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 194520.png",
+      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 194607.png",
+      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 194653.png",
+      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 194723.png",
+      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 194753.png",
+      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 194859.png",
+      "/assets/The EyeBall Adventure/Screenshot 2026-02-02 195003.png"
     ],
   },
   {
@@ -169,14 +169,14 @@ export const projects = [
     fullDescription: "This is a 3D PC-based FPS game developed using Unity with three levels. I Implemented core gameplay systems, including shooting mechanics, ammo refilling, enemy attack behavior, health and damage systems and environment design.",
     videoUrl: null,
     images: [
-      "/assets/Viral Havoc/Screenshot 2026-02-02 214555.png",
-      "/assets/Viral Havoc/Screenshot 2026-02-02 214646.png",
-      "/assets/Viral Havoc/Screenshot 2026-02-02 214713.png",
-      "/assets/Viral Havoc/Screenshot 2026-02-02 214821.png",
-      "/assets/Viral Havoc/Screenshot 2026-02-02 215115.png",
-      "/assets/Viral Havoc/Screenshot 2026-02-02 215324.png",
-      "/assets/Viral Havoc/Screenshot 2026-02-02 215509.png",
-      "/assets/Viral Havoc/Screenshot 2026-02-02 215546.png"
+      "/assets/Viral Havoc/Screenshot 2026-02-02 195136.png",
+      "/assets/Viral Havoc/Screenshot 2026-02-02 195241.png",
+      "/assets/Viral Havoc/Screenshot 2026-02-02 195354.png",
+      "/assets/Viral Havoc/Screenshot 2026-02-02 195446.png",
+      "/assets/Viral Havoc/Screenshot 2026-02-02 195515.png",
+      "/assets/Viral Havoc/Screenshot 2026-02-02 195526.png",
+      "/assets/Viral Havoc/Screenshot 2026-02-02 195640.png",
+      "/assets/Viral Havoc/Screenshot 2026-02-02 195722.png"
     ],
   },
   {
