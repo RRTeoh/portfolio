@@ -29,14 +29,14 @@ export const projects = [
     fullDescription: "This is a creative puzzle ball game developed using Unreal Engine with narrative elements. I implemented core gameplay systems, including ball movement, interaction, item collection and simple puzzle mechanics.",
     videoUrl: null,
     images: [
-      "/assets/The Last Witch Soul/Screenshot 2026-02-02 181414.png",
-      "/assets/The Last Witch Soul/Screenshot 2026-02-02 181603.png",
-      "/assets/The Last Witch Soul/Screenshot 2026-02-02 181711.png",
-      "/assets/The Last Witch Soul/Screenshot 2026-02-02 182121.png",
-      "/assets/The Last Witch Soul/Screenshot 2026-02-02 182236.png",
-      "/assets/The Last Witch Soul/Screenshot 2026-02-02 182502.png",
-      "/assets/The Last Witch Soul/Screenshot 2026-02-02 182645.png",
-      "/assets/The Last Witch Soul/Screenshot 2026-02-02 182759.png"
+      "/assets/The Last Witch Soul/Screenshot 2026-02-02 182144.png",
+      "/assets/The Last Witch Soul/Screenshot 2026-02-02 182235.png",
+      "/assets/The Last Witch Soul/Screenshot 2026-02-02 182316.png",
+      "/assets/The Last Witch Soul/Screenshot 2026-02-02 183108.png",
+      "/assets/The Last Witch Soul/Screenshot 2026-02-02 183209.png",
+      "/assets/The Last Witch Soul/Screenshot 2026-02-02 183355.png",
+      "/assets/The Last Witch Soul/Screenshot 2026-02-02 183512.png",
+      "/assets/The Last Witch Soul/Screenshot 2026-02-02 183620.png"
     ],
   },
   {
