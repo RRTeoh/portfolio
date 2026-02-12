@@ -177,7 +177,6 @@ const { project } = Astro.props;
     transition: transform 0.3s ease;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     background: #1a1a1a;
-    aspect-ratio: 16 / 9;
   }
 
   .image-item:hover {
@@ -186,10 +185,10 @@ const { project } = Astro.props;
 
   .image-item img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
     display: block;
   }
+
 
   .no-images {
     color: #a1a1aa;
