@@ -30,6 +30,9 @@ const { project } = Astro.props;
         
         <div class="content">
           <h1>{project.title}</h1>
+          <div class="meta-info">
+            <p class="tools"><strong>Tools Used:</strong> {project.toolsUsed}</p>
+          </div>
           <p class="description">{project.fullDescription}</p>
         </div>
 
@@ -97,6 +100,20 @@ const { project } = Astro.props;
     background: linear-gradient(90deg, #fff, #ccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  .meta-info {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .tools {
+    font-size: 1.1rem;
+    color: rgb(var(--accent-light));
+    margin: 0;
   }
 
   .description {
