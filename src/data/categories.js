@@ -25,7 +25,7 @@ export const categories = [
         slug: 'video-editing',
         title: 'Video Editing',
         description: 'Professional video editing and post-production work.',
-        image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44e?auto=format&fit=crop&q=80&w=800'
+        image: '/assets/Batu Nisan - The Last Carver/Screenshot 2026-02-03 080110.png'
     },
     {
         id: 'audio-editing',
@@ -39,41 +39,41 @@ export const categories = [
         slug: 'environment-design',
         title: 'Environment Design',
         description: 'Creating atmospheric and detailed 3D environments.',
-        image: 'https://images.unsplash.com/photo-1558655146-d09347e0b7a8?auto=format&fit=crop&q=80&w=800'
+        image: '/assets/Human Village/Screenshot 2026-02-03 072926.png'
     },
     {
         id: '3d-modeling',
         slug: '3d-modeling',
         title: '3D Modeling',
         description: 'High-quality 3D models for games and animation.',
-        image: 'https://images.unsplash.com/photo-1617791160505-6f00504e3519?auto=format&fit=crop&q=80&w=800'
+        image: '/assets/Study Room/001.jpg'
     },
     {
         id: '3d-animation',
         slug: '3d-animation',
         title: '3D Animation',
         description: 'Bringing characters and objects to life through 3D animation.',
-        image: 'https://images.unsplash.com/photo-1626379953822-baec19c3accd?auto=format&fit=crop&q=80&w=800'
+        image: '/assets/Stationery Love Story/Screenshot 2026-02-02 205905.png'
     },
     {
         id: '2d-animation',
         slug: '2d-animation',
         title: '2D Animation',
         description: 'Classical and digital 2D animation projects.',
-        image: 'https://images.unsplash.com/photo-1635241161466-541f065683ba?auto=format&fit=crop&q=80&w=800'
+        image: '/assets/Meowtivation Journey/Screenshot 2026-02-03 072258.png'
     },
     {
         id: 'software-development',
         slug: 'software-development',
         title: 'Software Development',
         description: 'Building robust and scalable software solutions.',
-        image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800'
+        image: '/assets/Boostify/photo_6282919100120417191_y.jpg'
     },
     {
         id: 'graphic-design',
         slug: 'graphic-design',
         title: 'Graphic Design',
         description: 'Visual communication through typography, photography, and illustration.',
-        image: 'https://images.unsplash.com/photo-1626785774573-4b799312299d?auto=format&fit=crop&q=80&w=800'
+        image: '/assets/Lilo & Stitch/Assgm_2_page-0001.jpg'
     }
 ];
