@@ -167,7 +167,7 @@ export const projects = [
     toolsUsed: "Unity",
     description: "3D PC-based FPS game developed using Unity with three levels.",
     fullDescription: "This is a 3D PC-based FPS game developed using Unity with three levels. I Implemented core gameplay systems, including shooting mechanics, ammo refilling, enemy attack behavior, health and damage systems and environment design.",
-    videoUrl: null,
+    videoUrl: "https://youtu.be/TNLG9wdItmk",
     images: [
       "/assets/Viral Havoc/Screenshot 2026-02-02 195136.png",
       "/assets/Viral Havoc/Screenshot 2026-02-02 195241.png",
@@ -457,16 +457,16 @@ export const projects = [
     fullDescription: "I created a 150-second long-take video with horror-themed narrative elements. The video was not further edited in terms of cuts but only blending visual effects and sound effects were adjusted using CapCut to enhance the atmosphere.",
     videoUrl: "https://youtu.be/2e-n9d6Lr9c",
     images: [
-      "/assets/Study Room #105/Screenshot 2026-02-03 075446.png",
-      "/assets/Study Room #105/Screenshot 2026-02-03 075508.png",
-      "/assets/Study Room #105/Screenshot 2026-02-03 075549.png",
-      "/assets/Study Room #105/Screenshot 2026-02-03 075619.png",
-      "/assets/Study Room #105/Screenshot 2026-02-03 075652.png",
-      "/assets/Study Room #105/Screenshot 2026-02-03 075720.png",
-      "/assets/Study Room #105/Screenshot 2026-02-03 075745.png",
-      "/assets/Study Room #105/Screenshot 2026-02-03 075815.png",
-      "/assets/Study Room #105/Screenshot 2026-02-03 075849.png",
-      "/assets/Study Room #105/Screenshot 2026-02-03 075932.png"
+      "/assets/Study Room 105/Screenshot 2026-02-03 075446.png",
+      "/assets/Study Room 105/Screenshot 2026-02-03 075508.png",
+      "/assets/Study Room 105/Screenshot 2026-02-03 075549.png",
+      "/assets/Study Room 105/Screenshot 2026-02-03 075619.png",
+      "/assets/Study Room 105/Screenshot 2026-02-03 075652.png",
+      "/assets/Study Room 105/Screenshot 2026-02-03 075720.png",
+      "/assets/Study Room 105/Screenshot 2026-02-03 075745.png",
+      "/assets/Study Room 105/Screenshot 2026-02-03 075815.png",
+      "/assets/Study Room 105/Screenshot 2026-02-03 075849.png",
+      "/assets/Study Room 105/Screenshot 2026-02-03 075932.png"
     ],
   },
   {
