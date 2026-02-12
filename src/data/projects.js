@@ -450,7 +450,7 @@ export const projects = [
   {
     id: 22,
     slug: "study-room-105",
-    title: "Study Room #105",
+    title: "Study Room 105",
     categorySlug: "video-editing",
     toolsUsed: "CapCut",
     description: "150-second long-take video with horror-themed narrative elements.",
@@ -583,7 +583,7 @@ export const projects = [
     toolsUsed: "Visual Studio Code",
     description: "Health & Fitness App combining workout and nutrition tracking.",
     fullDescription: "This Health & Fitness App, Boostify is developed and it combines both workout and nutrition tracking functions while also offering a more user-friendly interface to enhance the overall user experience.",
-    videoUrl: null,
+    videoUrl: "https://youtu.be/0OjvFqlNurU",
     images: [
       "/assets/Boostify/photo_6282919100120417191_y.jpg",
       "/assets/Boostify/photo_6282919100120417194_y.jpg",

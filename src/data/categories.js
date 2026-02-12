@@ -4,21 +4,21 @@ export const categories = [
         slug: 'pc-game',
         title: 'PC Game',
         description: 'Immersive gameplay experiences developed for desktop platforms.',
-        image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=800'
+        image: '/assets/Hallucination/Screenshot 2026-02-02 180615.png'
     },
     {
         id: 'vr-game',
         slug: 'vr-game',
         title: 'VR Game',
         description: 'Virtual Reality games that transport players to new worlds.',
-        image: 'https://images.unsplash.com/photo-1622979135228-44384cd9a163?auto=format&fit=crop&q=80&w=800'
+        image: '/assets/Survival Island/Screenshot 2026-02-02 203713.png'
     },
     {
         id: 'ar-application',
         slug: 'ar-application',
         title: 'AR Application',
         description: 'Augmented Reality apps blending digital content with the real world.',
-        image: 'https://images.unsplash.com/photo-1633127364505-1c251d520336?auto=format&fit=crop&q=80&w=800'
+        image: '/assets/Greeting Card/Screenshot 2026-02-02 200127.png'
     },
     {
         id: 'video-editing',
