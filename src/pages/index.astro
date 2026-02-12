@@ -10,6 +10,15 @@ import Layout from '../layouts/Layout.astro';
         A motivated Digital Media Technology student at Xiamen University Malaysia seeking an internship opportunity to apply academic knowledge and gain hands-on experience in game development using tools such as Unreal Engine and Unity, while supporting operational efficiency and innovation through practical development work.
       </p>
       
+      <div class="internship-info">
+        <p class="section-title">Internship Duration:</p>
+        <ul class="dates-list">
+          <li>(1): 06th April 2026 – 26th June 2026</li>
+          <li>(2): 06th April 2026 – 17th July 2026</li>
+        </ul>
+        <p class="availability"><strong>Available commencing:</strong> 1st March 2026</p>
+      </div>
+
       <div class="cta-buttons">
         <a href="/resume" class="btn secondary">View Resume</a>
         <a href="/portfolio" class="btn primary">View Portfolio</a>
@@ -94,5 +103,37 @@ import Layout from '../layouts/Layout.astro';
     background: rgba(255, 255, 255, 0.9);
     transform: translateY(-2px);
     border-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .internship-info {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+  }
+
+  .section-title {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: rgb(var(--accent-light));
+  }
+
+  .dates-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+  }
+
+  .dates-list li {
+    margin-bottom: 0.3rem;
+    opacity: 0.9;
+  }
+
+  .availability {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: white;
   }
 </style>
