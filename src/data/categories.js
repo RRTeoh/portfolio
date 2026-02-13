@@ -74,6 +74,6 @@ export const categories = [
         slug: 'graphic-design',
         title: 'Graphic Design',
         description: 'Visual communication through typography, photography, and illustration.',
-        image: '/assets/Lilo & Stitch/Assgm_2_page-0001.jpg'
+        image: '/assets/Lilo & Stitch/Assignment_2_page-0001.jpg'
     }
 ];
