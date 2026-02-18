@@ -580,7 +580,7 @@ export const projects = [
     slug: "boostify",
     title: "Boostify",
     categorySlug: "software-development",
-    toolsUsed: "Visual Studio Code",
+    toolsUsed: "Visual Studio Code & Flutter",
     description: "Health & Fitness App combining workout and nutrition tracking.",
     fullDescription: "This Health & Fitness App, Boostify is developed and it combines both workout and nutrition tracking functions while also offering a more user-friendly interface to enhance the overall user experience.",
     videoUrl: "https://youtu.be/0OjvFqlNurU",
