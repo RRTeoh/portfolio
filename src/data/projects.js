@@ -27,7 +27,7 @@ export const projects = [
     toolsUsed: "Unreal Engine",
     description: "Creative puzzle ball game developed using Unreal Engine with narrative elements.",
     fullDescription: "This is a creative puzzle ball game developed using Unreal Engine with narrative elements. I implemented core gameplay systems, including ball movement, interaction, item collection and simple puzzle mechanics.",
-    videoUrl: null,
+    videoUrl: "https://www.youtube.com/embed/uYhqxtBhhRs",
     images: [
       "/assets/The Last Witch Soul/Screenshot 2026-02-02 182144.png",
       "/assets/The Last Witch Soul/Screenshot 2026-02-02 182235.png",
@@ -147,7 +147,7 @@ export const projects = [
     toolsUsed: "Unity",
     description: "3D narrative-driven ball game with an eyeball protagonist across two levels using Unity.",
     fullDescription: "I developed a 3D narrative-driven ball game with an eyeball protagonist across two levels using Unity for the first time. I implemented core gameplay systems, including ball movement, item collection and OnTriggerEnter-based interactions.",
-    videoUrl: null,
+    videoUrl: "https://www.youtube.com/embed/S01GnKrjCvY",
     images: [
       "/assets/The EyeBall Adventure/Screenshot 2026-02-02 194424.png",
       "/assets/The EyeBall Adventure/Screenshot 2026-02-02 194520.png",

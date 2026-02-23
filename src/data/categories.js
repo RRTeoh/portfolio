@@ -24,7 +24,7 @@ export const categories = [
         id: 'video-editing',
         slug: 'video-editing',
         title: 'Video Editing',
-        description: 'Professional video editing and post-production work.',
+        description: 'Video editing and post-production work.',
         image: '/assets/Batu Nisan - The Last Carver/Screenshot 2026-02-03 080110.png'
     },
     {
@@ -45,7 +45,7 @@ export const categories = [
         id: '3d-modeling',
         slug: '3d-modeling',
         title: '3D Modeling',
-        description: 'High-quality 3D models for games and animation.',
+        description: 'Building real-life object in 3D.',
         image: '/assets/Study Room/001.jpg'
     },
     {
@@ -59,21 +59,21 @@ export const categories = [
         id: '2d-animation',
         slug: '2d-animation',
         title: '2D Animation',
-        description: 'Classical and digital 2D animation projects.',
+        description: 'Digital 2D animation projects.',
         image: '/assets/Meowtivation Journey/Screenshot 2026-02-03 072258.png'
     },
     {
         id: 'software-development',
         slug: 'software-development',
         title: 'Software Development',
-        description: 'Building robust and scalable software solutions.',
+        description: 'Building robust and user-friendly software solutions.',
         image: '/assets/Boostify/photo_6282919100120417191_y.jpg'
     },
     {
         id: 'graphic-design',
         slug: 'graphic-design',
         title: 'Graphic Design',
-        description: 'Visual communication through typography, photography, and illustration.',
+        description: 'Visual communication through typography and illustration.',
         image: '/assets/Lilo & Stitch/Assignment_2_page-0001.jpg'
     }
 ];
