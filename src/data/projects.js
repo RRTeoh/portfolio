@@ -47,7 +47,7 @@ export const projects = [
     toolsUsed: "Unreal Engine",
     description: "3D PC-based third-person action-adventure game developed using Unreal Engine.",
     fullDescription: "This is a 3D PC-based third-person action-adventure game developed using Unreal Engine. I implemented environment design and waypoint-based navigation using Unreal Blueprints.",
-    videoUrl: "https://www.youtube.com/watch?v=fsGS2lJf914&list=PLRaszQigKjK1CxftHYs2dZqakVYSiOEvA&index=14",
+    videoUrl: "https://www.youtube.com/watch?v=BmIS-mD_-f8&list=PLRaszQigKjK3YGRIXGHbEGrBMbh8ko4jj&index=12",
     images: [
       "/assets/The Last Light of Divinity/Screenshot 2026-02-02 184228.png",
       "/assets/The Last Light of Divinity/Screenshot 2026-02-02 184330.png",
