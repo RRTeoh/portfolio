@@ -128,7 +128,7 @@ export const projects = [
     toolsUsed: "Unity",
     description: "3D PC-based open-world third-person adventure game with five levels developed using Unity.",
     fullDescription: "This is a 3D PC-based open-world third-person adventure game with five levels developed using Unity. I implemented core puzzle gameplay systems, including interaction, item collection, puzzle-trigger mechanics and multiple puzzle managers for different puzzle types (sequence-based, maze-based, and jigsaw puzzles).",
-    videoUrl: "https://www.youtube.com/watch?v=qOCyQi9lx44",
+    videoUrl: "https://www.youtube.com/embed/qOCyQi9lx44",
     images: [
       "/assets/Merlin’s Curse/Screenshot 2026-02-02 193048.png",
       "/assets/Merlin’s Curse/Screenshot 2026-02-02 193310.png",
